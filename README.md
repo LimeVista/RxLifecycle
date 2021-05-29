@@ -52,17 +52,17 @@ Observable.just(1)
 // view
 Observable.just(1)
     .withContext(view)
-    .subscribe{/* TODO */ };
+    .subscribe{/* TODO */ }
 
 // Activity, Fragment, LifecycleOwner
 Observable.just(1)
     .withContext(your)
-    .subscribe{ /* TODO */ };
+    .subscribe{ /* TODO */ }
 
 // custom scope
 Observable.just(1)
     .withContext(scope)
-    .subscribe{ /* TODO */ };
+    .subscribe{ /* TODO */ }
 ```
 
 ## 题外话
