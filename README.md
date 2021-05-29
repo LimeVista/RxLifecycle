@@ -1,4 +1,4 @@
-# RxLifecycle
+# RxLifecycle[![](https://jitpack.io/v/LimeVista/RxLifecycle.svg)](https://jitpack.io/#LimeVista/RxLifecycle)
 
 一个用于 Android RxJava 生命周期管理的轻量级库。以正确的方式解决 RxJava 使用过程中的内存泄漏。自动化管理 Disposable。
 
