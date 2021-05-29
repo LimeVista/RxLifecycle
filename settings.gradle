@@ -1,0 +1,4 @@
+rootProject.name = "RxLifecycle"
+include ':samples'
+include ':core'
+include ':ktx'

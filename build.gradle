@@ -1,0 +1,31 @@
+buildscript {
+    ext.kotlin_version = "1.5.0"
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.2.1"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+
+    ext.versions = [
+            'verName'   : '0.0.9',
+            'verCode'   : 2,
+            'minSdk'    : 19,
+            'tarSdk'    : 30,
+            'compileSdk': 30
+    ]
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
